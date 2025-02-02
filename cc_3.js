@@ -59,3 +59,21 @@ feedback.push({ customerName: "Raymond Keen", feedbackText: "Fast shipping and g
 
 // Update Array of feedbacks
 console.log("Customer Feedback Records:", feedback);
+
+// Task 5 - Inventory Management System
+
+// Declaring an object "inventory" with product details
+let inventory = {
+    itemName: "Godzilla Pre-Workout",
+    stockCount: 500,
+    price: 56,
+    
+    // Calculate total value of stock on hand
+    calculateTotalValue: function() {
+        return this.stockCount * this.price;
+    }
+};
+
+// Log inventory details and total stock value
+console.log("Inventory Details:", inventory);
+console.log("Total Inventory Value:", inventory.calculateTotalValue());
