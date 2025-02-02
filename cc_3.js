@@ -45,3 +45,17 @@ employee.promotionEligible = employee.performanceScore >= 4; // made employee on
 // Log the updated employee object
 console.log("Updated Employee Performance:", employee);
 
+
+// Task 4 - Customer Feedback Record
+// Declarimg an array "feedback" containing customer feedback objects
+let feedback = [
+    { customerName: "Dia Son", feedbackText: "Great product!", rating: 5 },
+    { customerName: "Neil Jia", feedbackText: "Quality is okay and a bit pricey.", rating: 2 },
+    { customerName: "Adam Fessler", feedbackText: "Fast shipping, decent quality.", rating: 4 }
+];
+
+// Add a new feedback object to the array (new  review)
+feedback.push({ customerName: "Raymond Keen", feedbackText: "Fast shipping and great product", rating: 5 });
+
+// Update Array of feedbacks
+console.log("Customer Feedback Records:", feedback);
