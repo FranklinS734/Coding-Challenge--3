@@ -25,3 +25,23 @@ let totalOrders = orders.reduce((total, qty) => total + qty, 0);
 
 console.log("Updated Creatine Orders:", orders);
 console.log("Total Creatine Ordered:", totalOrders);
+
+
+// Task 3 - Employee Performance Tracking
+
+// Declaring an object "employee" with key details about an employee's performance
+let employee = {
+    name: "Sunny Man", // Employee's name
+    role: "Data Analyst", // Employee's job title
+    performanceScore: 2, // Initial performance score
+    isActive: true // Employment status
+};
+// Update the performanceScore
+employee.performanceScore = 3;
+
+// Adding a new property "promotionEligible"
+employee.promotionEligible = employee.performanceScore >= 4; // made employee only elgible for promotion if he scores a 4 or higher
+
+// Log the updated employee object
+console.log("Updated Employee Performance:", employee);
+
